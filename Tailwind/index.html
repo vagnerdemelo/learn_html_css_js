@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body class="font-sans bg-white text-gray-950">
+  <header class="bg-gray-800 text-white p-4">
+    <h1 class="font-bold text-3xl">
+      <a href="#home">My Website</a>
+    </h1>
+  </header>
+  <nav class="bg-gray-800 text-white p-4 text-center">
+    <ul class="list-none">
+      <li class="inline text-lg m-2"><a href="#home" title="Home">Home</a></li>
+      <li class="inline text-lg m-2"><a href="#about" title="About">About</a></li>
+      <li class="inline text-lg m-2"><a href="#table" title="Table">Table</a></li>
+      <li class="inline text-lg m-2"><a href="#contact" title="Contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="p-4">
+      <h3 class="text-xl font-bold">Home</h3>
+      <p class="indent-4">Welcome to my website</p>
+      <p class="indent-4">Learn more about me and my work by clicking on the links above:</p>
+      <div class="m-2">
+        <ul class="list-none">
+          <li class="inline text-lg m-2"><a href="https://github.com/vagnerdemelo">GitHub</a></li>
+          <li class="inline text-lg m-2"><a href="https://www.linkedin.com/in/vagnerdemelo/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <section id="about">
+      <div class="p-4">
+        <h3 class="text-xl font-bold">About</h3>
+        <p class="indent-4">I'm a software developer with a passion for creating user-friendly and efficient web applications.</p>
+        <p class="indent-4">I'm currently working as Freelancer and I'm learning HTML, CSS and JavaScript.</p>
+      </div>
+    </section>
+    <section id="table">
+      <div class="p-4">
+        <h3 class="text-xl font-bold">Table of Contents</h3>
+        <div class="flex justify-center p-4">
+          <table class="table-auto shadow-2xl font-sans w-6/12 border-collapse border-2 border-gray-400 overflow-hidden">
+            <thead class="text-center text-white bg-gray-900">
+              <tr>
+                <th class="py-3">First Name</th>
+                <th class="py-3">Last Name</th>
+                <th class="py-3">Age</th>
+              </tr>
+          </thead>
+          <tbody class="text-center text-white">
+            <tr class="bg-gray-800 cursor-pointer duration-300 hover:bg-gray-700 hover:scale-105">
+              <td>John</td>
+              <td>Doe</td>
+              <td>30</td>
+            </tr>
+            <tr class="bg-gray-700 cursor-pointer duration-300 hover:bg-gray-700 hover:scale-105">
+              <td>Jane</td>
+              <td>Doe</td>
+              <td>25</td>
+            </tr>
+            <tr class="bg-gray-600 cursor-pointer duration-300 hover:bg-gray-700 hover:scale-105">
+              <td>Jane</td>
+              <td>Doe</td>
+              <td>25</td>
+            </tr>
+            <tr class="bg-gray-500 cursor-pointer duration-300 hover:bg-gray-700 hover:scale-105">
+              <td>Jane</td>
+              <td>Doe</td>
+              <td>25</td>
+            </tr>
+            <tr class="bg-gray-400 cursor-pointer duration-300 hover:bg-gray-700 hover:scale-105">
+              <td>Jane</td>
+              <td>Doe</td>
+              <td>25</td>
+            </tr>
+            <tr class="bg-gray-300 cursor-pointer duration-300 hover:bg-gray-700 hover:scale-105">
+              <td>Jane</td>
+              <td>Doe</td>
+              <td>25</td>
+            </tr>
+            <tr class="bg-gray-200 cursor-pointer duration-300 hover:bg-gray-700 hover:scale-105">
+              <td>Jane</td>
+              <td>Doe</td>
+              <td>25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="p-4">
+        <h3 class="text-xl font-bold">Contact</h3>
+        <p class="indent-4">Email: vagner@vagner.com</p>
+        <p class="indent-4">Phone: 123-456-7890</p>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-white p-4 text-center">
+    <p>&copy; 2025 Vagner Melo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
