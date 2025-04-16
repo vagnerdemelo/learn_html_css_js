@@ -23,6 +23,16 @@ The site consists of:
   - Colors and backgrounds
   - Table styling
   - Responsive design rules
+- `tailwind.config.js` - Configuration for Tailwind CSS (if applicable)
+- Tailwind - Directory containing TailwindCSS implementations
+  - `index.html` - Main landing page with TailwindCSS styling
+  - `contact.html` - Contact page demonstrating TailwindCSS components
+- Box Model - Directory showcasing CSS Box Model concepts
+  - `index.html` - Examples of different display properties and box model layouts
+  - `ex.html` - Interactive exercise for practicing box model concepts
+  - `cat.jpg` - Sample image used in box model exercises
+  - `styles.css` - Core styles for index.html demonstrations
+  - `stylesex.css` - Specific styles for the exercise page
 
 ## Sections
 
